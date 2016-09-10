@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="A01.css">
+<title>Interest Calculator</title>
+</head>
+<body>
+<ul class="u01" id="u02">
+  <li><a href="Home.html">Home</a></li>
+  <li><a href="InterestCalculator.html">Interest Calculator</a></li>
+  <li><a href="Contact.html">Contact</a></li>
+  </ul>
+	<fieldset id="f02">
+		<legend id="l02">Interest Calculator</legend>
+		<label id="l03">Principle Amount * &nbsp;&nbsp;</label>
+		<input id="t01" type="number" min="1" name="Principle amount"/><br><br>
+		<label id="l04">Interest Rate(%) *</label>
+		<input id="t02" type="number" min="0" name="Interest Rate(%)"/><br><br>
+		<label id="l05">Term *</label>
+		<input  id="t03" type="number" min="1" name="term"/>
+		<select id="s01">
+			<option value="default">Months/Years</option>
+			<option value="Monthly">Months</option>
+			<option value="Yearly">Years</option>
+		</select>
+		<br><br>
+		<label id="l07">Simple Interest</label>
+		<input id="r01" type="radio" name="Interest" value="SI">
+		<label id="l08">Compound Interest</label>
+		<input id="r02" type="radio" name="Interest" value="CI">	
+  
+  <br><br><input id="b03" type="submit" value="Calculate"/><br>
+  <label id="l06">Result</label>
+  <input id="t04" type="number" name="Result" min="0"/>
+    </fieldset>
+  <img id="img07" src="interest.jpg" alt= "interestimage">
+</body>
+</html>
